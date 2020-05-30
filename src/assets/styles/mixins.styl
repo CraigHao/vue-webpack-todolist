@@ -1,0 +1,22 @@
+cleanDefaultStyle()
+  appearance: none
+  border: none
+  outline: none
+
+btn(bc, c)
+  padding: 0 8px
+  border-radius: 5px
+  cursor: pointer
+  box-shadow: 2px 2px 1px #888888
+  cleanDefaultStyle()
+  background-color: bc
+  color: c
+
+primaryBtn()
+  btn(transparent, black)
+
+primaryActiveBtn()
+  btn(#ff7575, rgba(255, 255, 255, 0.9))
+
+infoBtn()
+  btn(#9f5000, rgba(255, 255, 255, 0.9))
